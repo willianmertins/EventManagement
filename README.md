@@ -5,9 +5,12 @@ Este projeto foi desenvolvido com o objetivo de praticar conceitos de **Arquitet
 ## Tecnologias Utilizadas
 
 - .NET 9
-- C# 13
+- ASP.NET Core
 - Entity Framework Core
 - ASP.NET Core Identity
+- JWT (JSON Web Token)
+- SQL Server
+- Swagger (OpenAPI)
 - Arquitetura Limpa (Clean Architecture)
 
 ## Estrutura do Projeto
