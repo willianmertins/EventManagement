@@ -21,7 +21,7 @@ Este projeto foi desenvolvido com o objetivo de praticar conceitos de **Arquitet
 
   ## Como Executar
 
-1. **Clone o repositório:** git clone https://github.com/seu-usuario/seu-repositorio.git
+1. **Clone o repositório:** git clone https://github.com/willianmertins/seu-repositorio.git
   
 2. **Configure a string de conexão:**
    - No arquivo `appsettings.json`, ajuste a chave `DefaultConnection` para apontar para sua instância do SQL Server.
