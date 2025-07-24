@@ -13,6 +13,29 @@ Este projeto foi desenvolvido com o objetivo de praticar conceitos de **Arquitet
 - Swagger (OpenAPI)
 - Arquitetura Limpa (Clean Architecture)
 
+## Objetivos
+
+- Explorar a implementação de autenticação e autorização com Identity.
+- Praticar a separação de responsabilidades utilizando Arquitetura Limpa.
+- Utilizar o Entity Framework Core para persistência de dados.
+
+  ## Como Executar
+
+1. **Clone o repositório:** git clone https://github.com/seu-usuario/seu-repositorio.git
+  
+2. **Configure a string de conexão:**
+   - No arquivo `appsettings.json`, ajuste a chave `DefaultConnection` para apontar para sua instância do SQL Server.
+
+3. **Configure as chaves JWT:**
+   - No mesmo arquivo, configure as seções `Jwt:Issuer`, `Jwt:Audience` e `Jwt:Key` conforme desejado.
+
+4. **Restaure os pacotes e execute as migrações:** dotnet restore dotnet ef database update --project src/Presentation/TaskManagement.Api
+  
+5. **Execute a aplicação:** dotnet run --project src/Presentation/TaskManagement.Api
+
+6. **Acesse a documentação Swagger:**
+   - Acesse `https://localhost:5001/swagger` no navegador para explorar e testar a API.
+
 ## Estrutura do Projeto
 
 O projeto está organizado seguindo os princípios da Arquitetura Limpa, separando responsabilidades em diferentes camadas:
